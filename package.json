@@ -1,0 +1,19 @@
+{
+  "name": "serobotss",
+  "version": "1.0.0",
+  "description": "chatbot",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlsenab7/serobotss.git"
+  },
+  "author": "threee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlsenab7/serobotss/issues"
+  },
+  "homepage": "https://github.com/karlsenab7/serobotss#readme"
+}
