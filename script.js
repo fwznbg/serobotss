@@ -1,3 +1,16 @@
+var PORT = process.env.PORT;
+var express = require('express');
+var app = express();
+
+var http = require('http');
+var server = http.Server(app);
+
+app.use(express.static('client'));
+
+server.listen(PORT, function() {
+    console.log("chat server running");
+})
+
 kataPenting = ['kuis', 'ujian', 'tucil', 'tubes', 'praktikum'];
 
 task = {};

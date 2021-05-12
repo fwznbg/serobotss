@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/karlsenab7/serobotss/issues"
   },
-  "homepage": "https://github.com/karlsenab7/serobotss#readme"
+  "homepage": "https://github.com/karlsenab7/serobotss#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  }
 }
