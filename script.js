@@ -11,6 +11,14 @@ server.listen(PORT, function() {
     console.log("chat server running");
 })
 
+var io = require('socket.io')(server);
+
+io.on('connection', function(socket) {
+  socket.on('message', function(msg) {
+    io.emit('message', msg);
+  });
+});
+
 kataPenting = ['kuis', 'ujian', 'tucil', 'tubes', 'praktikum'];
 
 task = {};
